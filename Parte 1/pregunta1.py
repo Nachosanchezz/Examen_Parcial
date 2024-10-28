@@ -1,3 +1,11 @@
+"""Principio SOLID "Open/Closed"
+
+Este principio nos dice que los módulos de software deben ser abiertos para
+su extensión, pero cerrados para su modificación. Es decir, que debemos poder 
+extender su comportamiento sin necesidad de modificar su código fuente.
+
+"""
+
 # Código errróneo que no cumple el principio SOLID "Open/Closed"
 
 class CalculoArea:
