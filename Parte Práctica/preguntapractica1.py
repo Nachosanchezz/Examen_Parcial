@@ -3,7 +3,6 @@ from abc import ABC, abstractmethod
 class Shape(ABC):
     @abstractmethod
     def area(self):
-        """Método abstracto para calcular el área de la forma."""
         pass
 
 
