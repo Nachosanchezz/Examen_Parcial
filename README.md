@@ -57,3 +57,16 @@ class AreaCalculator:
 shapes = [Shape("circle"), Shape("square")]
 calculator = AreaCalculator(shapes)
 print(calculator.total_area())
+```
+
+## Pregunta Práctica 2: Implementación de Patrón de Diseño Estrategia (2.5 Puntos)
+
+En ingeniería matemática, es común que necesitemos intercambiar diferentes algoritmos dependiendo de la situación. Considere una aplicación que debe realizar la integración numérica de una función. Hay diferentes métodos para realizar esta integración, como el **método del trapecio**, el **método de Simpson**, la **cuadratura gaussiana**, entre otros.
+
+Se le pide que implemente este escenario utilizando el **patrón de diseño estrategia**. Debe proporcionar una estructura que permita cambiar fácilmente el método de integración. Incluya al menos dos métodos específicos (por ejemplo, Trapecio y Simpson) y demuestre cómo se podrían cambiar estos métodos en tiempo de ejecución.
+
+# Repositorio
+
+Nombre Usario: @Nachosanchezz
+Link al repositorio: 
+
