@@ -22,7 +22,10 @@ class CalculoArea:
         return area_total
     
 # Código corregido
+
+from abc import ABC, abstractmethod
 class Forma:
+    @abstractmethod
     def area(self):
         pass
 
